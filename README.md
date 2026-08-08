@@ -1,5 +1,7 @@
 # AI Quality Engineering Portfolio
 
+[![Quality Gates](https://github.com/anshulporwal-ai/ai-quality-engineering-portfolio/actions/workflows/quality-gates.yml/badge.svg)](https://github.com/anshulporwal-ai/ai-quality-engineering-portfolio/actions/workflows/quality-gates.yml)
+
 A public-safe reference project showing how I design automated quality gates for web, API and AI-enabled systems with Playwright and TypeScript.
 
 > This is an original demonstration project built with public services and synthetic data. It contains no employer, customer or proprietary code.
