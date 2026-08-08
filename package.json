@@ -1,0 +1,21 @@
+{
+  "name": "ai-quality-engineering-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public-safe Playwright and TypeScript quality engineering portfolio",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:ai": "playwright test tests/ai",
+    "test:a11y": "playwright test tests/accessibility",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
